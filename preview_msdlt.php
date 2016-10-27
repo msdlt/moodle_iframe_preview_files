@@ -21,7 +21,7 @@
  */
 
 
-require_once(dirname(__FILE__) . '/../config.php');
+require_once(dirname(__FILE__) . '/../../config.php');
 require_once($CFG->libdir . '/questionlib.php');
 require_once(dirname(__FILE__) . '/previewlib_msdlt.php');
 
