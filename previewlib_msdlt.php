@@ -284,7 +284,7 @@ function question_preview_action_url($questionid, $qubaid,
         $params['courseid'] = $context->instanceid;
     }
     $params = array_merge($params, $options->get_url_params());
-    return new moodle_url('/msdlt_code/preview_msdlt.php', $params);
+    return new moodle_url('/msdlt_code/iframe_preview_files/preview_msdlt.php', $params);
 }
 
 /**

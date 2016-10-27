@@ -259,7 +259,7 @@ echo html_writer::empty_tag('input', $filldisabled    + array('type' => 'submit'
 // changed get_string to allow a specific string. This value comes from
 // /lang/en/question.php
 echo html_writer::empty_tag('input', $finishdisabled  + array('type' => 'submit',
-        'name' => 'finish',  'value' => get_string('submitandfinishmsdlt', 'question')));
+        'name' => 'finish',  'value' => get_string('check', 'question')));
 echo html_writer::end_tag('div');
 echo html_writer::end_tag('form');
 
